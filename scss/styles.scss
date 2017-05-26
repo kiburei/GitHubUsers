@@ -1,0 +1,12 @@
+$gray : #d3d3d3;
+
+.body h1 {
+  background: $gray;
+  colour: blue;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    background: red;
+    color: white;
+  }
+}
