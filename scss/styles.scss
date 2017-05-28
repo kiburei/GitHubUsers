@@ -1,12 +1,39 @@
-$gray : #d3d3d3;
+$text : white;
 
-.body h1 {
-  background: $gray;
-  colour: blue;
-  .button {
-    font-weight: bold;
-    text-align: center;
-    background: red;
-    color: white;
-  }
+body {
+	background-image: url("./images/01.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	form{
+		margin: 100px;
+		text-align: center;
+		padding: 50px;
+		background-image: url("./images/01.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 15px;
+		input {
+				border-radius: 10px;
+
+		}
+		button {
+			background-color: white;
+			border-color: green;
+			border-radius: 10px;
+			border-width: 5px;
+		}
+	}
+	h1 {
+		font-size: 50px;
+		color: $text;
+		margin: 20px;
+		text-align: center;
+		font-family: monospace;
+		font-weight: lighter;
+	}
+
+	div {
+		text-align: center;
+		color: $text
+	}
 }
