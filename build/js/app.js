@@ -3,7 +3,6 @@ exports.apiKey = "582040ffa017dc95fac9fb9d7f941f9c0c0f9887"
 
 },{}],2:[function(require,module,exports){
 var GitUser = require('./../js/git_requests.js').getRepos;
-var moment = require()
 
 $(document).ready(function(){
 	$("#gitForm").submit(function(event){
